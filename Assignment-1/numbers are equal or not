@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int a,b;
+cout<<"enter two numbers";
+cout<<endl;
+cin>>a;
+cin>>b;
+if(a!=b)
+{cout<<"entered numbers are not same";}
+else
+{cout<<"entered numbers are same";}
+return 0;
+}
