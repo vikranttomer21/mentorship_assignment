@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int a,i;
+    cin>>a;
+    vector<int> vec;
+    for(i=0;i<a;i++)
+    {
+        int temp;
+        cin>>temp;
+        vec.push_back(temp);
+    }
+    for(i=0;i<a;i++)
+    {
+        cout<<vec[i];
+        cout<<" ";
+    }
+return 0;
+}
