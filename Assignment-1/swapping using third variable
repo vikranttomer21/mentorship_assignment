@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int a,b,x;
+cin>>a>>b;
+cout<<"numbers are= ";
+cout<<a<<" ";
+cout<<b<<endl;
+x=a;
+a=b;
+b=x;
+cout<<"numbers after swapping is ";
+cout<<a<<" ";
+cout<<b;
+return 0;
+}
