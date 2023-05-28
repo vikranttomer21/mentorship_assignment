@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int temp,a,b,c,n;
+    cout<<"enter a number-: ";
+ cin>>n;
+a = n%10;   
+b = (n%100-a)/10;    
+c= (n%1000-b)/100; 
+temp=(a*100)+(b*10)+c;
+cout<<"number after reversing it is-: ";
+cout<<temp;
+return 0;
+}
