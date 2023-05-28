@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int temp,a,b,c;
+ 
+   cout<< "All Armstrong numbers between 100 and 1000 are:"<<endl;
+    for(int n=100;n<=1000;n++) 
+    {
+            a = n%10;   
+            b = (n%100-a)/10;    
+            c= (n%1000-b)/100; 
+            temp = (a*a*a) + (b*b*b) + (c*c*c); 
+	if (temp == n)
+            {
+                cout<<temp<<" ";
+            }
+    }
+}
